@@ -1,3 +1,102 @@
-.texto-red{
-    color: red;
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #A60F1B;
+}
+
+.header-wrapper{
+    display: grid;
+    background-color: #000;
+    grid-template-columns: 10% 70% 20%;
+    grid-template-rows: 5rem;
+}
+
+.img-logo{
+    height: 100%;
+}
+
+.header-title{
+    text-align: center;
+    align-self: center;
+    color: #fff;
+}
+
+.header-input{
+    padding: 10px;
+    text-align: center;
+    align-self: center;
+}
+
+input[type=text]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+.hero-wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 27rem;
+}
+
+.hero{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url(/assets/images/wallpaper3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: #000;
+}
+
+.hero .buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.btn{
+    display: block;
+    width: 100px;
+    padding: 1em;
+    margin-top: 2rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    border: 1px solid white;
+    border-radius: 30px;
+    text-align: center;
+    background-color: #000;
+}
+
+.additional-wrapper{
+    display: grid;
+    padding: 10px;
+    color: white;
+}
+
+.register-wrapper{
+    background-color: #fff;
+}
+
+footer{
+    margin-top: 3rem;
+    background-color: #000;
+    color: white;
+    text-align: center;
+}
+
+.social-wrapper{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+    align-self: center;
 }
