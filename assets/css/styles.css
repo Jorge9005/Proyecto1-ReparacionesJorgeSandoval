@@ -221,6 +221,7 @@ footer{
     height: 4rem;
 }
 
+
 /*--RESPONSIVE IPAD--*/
 @media screen and (max-width: 768px){
     /*--HEADER--*/
@@ -252,7 +253,6 @@ footer{
     .hero-inner{
         padding: 5px;
     }
-
 
     /*--PRODUCT--*/
     .product-computers-services{
@@ -286,7 +286,6 @@ footer{
         padding: 10px;
     }
 
-
     /*--JUMBOTRON--*/
     .hero-wrapper{
         grid-template-columns: 100%;
@@ -300,7 +299,6 @@ footer{
     .hero-inner{
         font-size: 15px;
     }
-
 
     /*--PRODUCT--*/
     .product-computers-services{
